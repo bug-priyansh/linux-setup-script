@@ -1,0 +1,85 @@
+{   
+    "workbench.colorTheme": "Hack The Box",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.productIconTheme": "macos-modern",
+    "editor.fontLigatures": false,
+
+    "editor.fontFamily": "Cartograph CF Regular Italic",//'Droid Sans Mono', 'monospace', monospace",
+    "editor.fontSize": 16,
+    "editor.fontWeight": "350", // OPTIONAL
+    "editor.lineHeight": 24,
+    "editor.smoothScrolling": true,
+    "editor.mouseWheelZoom": true,
+
+    //Workbench
+    "workbench.editor.titleScrollbarSizing": "large",
+    "workbench.editor.enablePreview": true,
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "workbench.editor.closeEmptyGroups": false,
+    "workbench.layoutControl.enabled": true,
+    "workbench.sideBar.location": "left",
+    "workbench.tree.indent": 12,
+    "workbench.tree.renderIndentGuides": "always",
+    "workbench.activityBar.location": "side",
+    "workbench.editor.tabActionCloseVisibility": false,
+    "workbench.list.multiSelectModifier": "alt",
+    "workbench.colorCustomizations": {
+    
+    },
+    "workbench.editor.tabCloseButton": "On",
+
+    //Explore
+    "explorer.openEditors.visible": 1,
+    "explorer.autoReveal": false,
+    "editor.minimap.enabled": false, // OPTIONAL
+    "breadcrumbs.enabled": true,
+    "editor.overviewRulerBorder":true,
+
+    "editor.padding.bottom": 14,
+    "editor.padding.top": 14,
+    "editor.scrollbar.horizontal": "hidden",
+    "explorer.compactFolders": false,
+    
+    "editor.codeLens": false,
+    "editor.glyphMargin": false,
+    "editor.foldingHighlight": false,
+    "editor.renderLineHighlight": "none",
+    "editor.guides.indentation": false,
+    "editor.guides.highlightActiveIndentation": false,
+    "editor.matchBrackets": "never",
+    "editor.guides.highlightActiveBracketPair": false,
+    "editor.lineNumbers": "on", // OPTIONAL
+    "editor.parameterHints.enabled": false,
+    "editor.inlayHints.enabled": "off",
+    "editor.inlineSuggest.enabled": true,
+    "window.autoDetectHighContrast": false,
+    "settingsSync.ignoredSettings": [
+        "window.titleBarStyle",
+    ],
+    
+    "window.menuBarVisibility": "toggle",
+    "editor.multiCursorModifier": "alt",
+    "editor.multiCursorMergeOverlapping": false,
+    
+     
+    
+    // Terminal    
+    "terminal.integrated.cursorStyleInactive": "underline",
+    "terminal.integrated.cursorStyle": "underline",
+    "terminal.integrated.enableImages": true,
+    "terminal.integrated.fontFamily": "jet brains mono",//"Cartograph CF Regular Italic",
+    "terminal.integrated.fontSize": 18,
+    "terminal.integrated.letterSpacing": 0,
+    "terminal.integrated.lineHeight": 1,
+    "terminal.integrated.fontWeight": "normal",
+    "terminal.integrated.cursorWidth": 2,
+    "terminal.integrated.cursorBlinking": true,
+     
+    
+    //Extensions
+    "bashIde.explainshellEndpoint": "http://localhost:5000",
+    }
+    
+    
+
+
