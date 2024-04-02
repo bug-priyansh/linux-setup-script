@@ -1,0 +1,471 @@
+{
+  "about": {
+    "browser": "chrome",
+    "version": "19.1.1"
+  },
+  "showall": true,
+  "lang": "en",
+  "dark": "system",
+  "favicon": "",
+  "tabtitle": "Home",
+  "greeting": "",
+  "pagegap": 0,
+  "pagewidth": 2200,
+  "time": true,
+  "main": false,
+  "dateformat": "eu",
+  "background_blur": 0,
+  "background_bright": 0.55,
+  "background_type": "local",
+  "quicklinks": true,
+  "textShadow": 0,
+  "announcements": "all",
+  "review": -1,
+  "cssHeight": 100,
+  "css": "",
+  "hide": {
+    "date": false,
+    "greetings": true,
+    "settingsicon": true,
+    "clock": false
+  },
+  "linkstyle": "large",
+  "linknewtab": false,
+  "linksrow": "8",
+  "linksrncdrq": {
+    "_id": "linksrncdrq",
+    "order": 19,
+    "parent": 0,
+    "title": "onenote",
+    "url": "https://onedrive.live.com/redir?resid=A338DB703B0BEE88%21114&page=Edit&wd=target%28Untitled%20Section.one%7Cbc35d8a1-0079-45b7-adc1-04680e39a383%2FUntitled%20Page%7C54fcca0b-8e2e-4f90-8bec-ccd8a053c644%2F%29&wdorigin=NavigationUrl"
+  },
+  "linksrmhofd": {
+    "_id": "linksrmhofd",
+    "order": 39,
+    "parent": 0,
+    "title": "Settings",
+    "url": "#chrome://settings/"
+  },
+  "linksrkbrik": {
+    "_id": "linksrkbrik",
+    "order": 20,
+    "parent": 0,
+    "title": "Medium",
+    "url": "https://medium.com/"
+  },
+  "linksrifinq": {
+    "_id": "linksrifinq",
+    "order": 25,
+    "parent": 0,
+    "title": "Discord",
+    "url": "https://discord.com/login"
+  },
+  "linksrdrjre": {
+    "_id": "linksrdrjre",
+    "order": 31,
+    "parent": 0,
+    "title": "Bitwarden vault",
+    "url": "https://vault.bitwarden.com/#/vault"
+  },
+  "linksraqigl": {
+    "_id": "linksraqigl",
+    "order": 28,
+    "parent": 0,
+    "title": "Postman",
+    "url": "https://web.postman.co/home"
+  },
+  "linksqrnqfb": {
+    "_id": "linksqrnqfb",
+    "order": 26,
+    "parent": 0,
+    "title": "Monkeytyper",
+    "url": "https://monkeytype.com/"
+  },
+  "linksqkefji": {
+    "_id": "linksqkefji",
+    "order": 18,
+    "parent": 0,
+    "title": "Samsung-Cloud",
+    "url": "https://support.samsungcloud.com/#/"
+  },
+  "linksqjglhe": {
+    "_id": "linksqjglhe",
+    "order": 37,
+    "parent": 0,
+    "title": "bugcroud",
+    "url": "https://bugcrowd.com/dashboard"
+  },
+  "linksqaofae": {
+    "_id": "linksqaofae",
+    "order": 13,
+    "parent": 0,
+    "title": "Spotify",
+    "url": "https://open.spotify.com/"
+  },
+  "linkspgabjd": {
+    "_id": "linkspgabjd",
+    "order": 15,
+    "parent": 0,
+    "title": "Pinterest",
+    "url": "https://in.pinterest.com/"
+  },
+  "linksoqpegd": {
+    "_id": "linksoqpegd",
+    "order": 24,
+    "parent": 0,
+    "title": "Docker",
+    "url": "https://hub.docker.com/"
+  },
+  "linksoperok": {
+    "_id": "linksoperok",
+    "order": 10,
+    "parent": 0,
+    "title": "Metamask",
+    "url": "https://metamask.io/"
+  },
+  "linksnqqoaq": {
+    "_id": "linksnqqoaq",
+    "order": 8,
+    "parent": 0,
+    "title": "Unsplash",
+    "url": "https://unsplash.com/"
+  },
+  "linksnojirg": {
+    "_id": "linksnojirg",
+    "order": 23,
+    "parent": 0,
+    "title": "tryhackme",
+    "url": "https://tryhackme.com/dashboard"
+  },
+  "linksnnprmq": {
+    "_id": "linksnnprmq",
+    "order": 16,
+    "parent": 0,
+    "title": "Outlook",
+    "url": "https://outlook.live.com/mail/0/?cobrandid=ab0455a0-8d03-46b9-b18b-df2f57b9e44c&RpsCsrfState=45f5a28b-f72d-f8e9-2484-f5de919217d1&url=%2fowa%2f0%2f%3fcobrandid%253dab0455a0-8d03-46b9-b18b-df2f57b9e44c%2526nlp%253d1%2526RpsCsrfState%253d45f5a28b-f72d-f8e9-2484-f5de919217d1"
+  },
+  "linksnhiiom": {
+    "_id": "linksnhiiom",
+    "order": 22,
+    "parent": 0,
+    "title": "hackerrank",
+    "url": "https://www.hackerrank.com/dashboard"
+  },
+  "linksnflqal": {
+    "_id": "linksnflqal",
+    "order": 2,
+    "parent": 0,
+    "title": "G-Drive",
+    "url": "https://drive.google.com/drive/my-drive"
+  },
+  "linksmrjhaf": {
+    "_id": "linksmrjhaf",
+    "order": 4,
+    "parent": 0,
+    "title": "Notion",
+    "url": "https://www.notion.so/Dashboard-45434fbc8ecf4fad8240184e2f0e76e8"
+  },
+  "linksmjlebd": {
+    "_id": "linksmjlebd",
+    "order": 27,
+    "parent": 0,
+    "title": "roadmap.sh",
+    "url": "https://roadmap.sh/"
+  },
+  "linksmirjro": {
+    "_id": "linksmirjro",
+    "order": 34,
+    "parent": 0,
+    "title": "Figma",
+    "url": "https://www.figma.com/files/recents-and-sharing/recently-viewed?fuid=1340195926844590610"
+  },
+  "linksmhaafb": {
+    "_id": "linksmhaafb",
+    "order": 33,
+    "parent": 0,
+    "title": "localxpose",
+    "url": "https://localxpose.io/signup"
+  },
+  "linksmcqopi": {
+    "_id": "linksmcqopi",
+    "order": 11,
+    "parent": 0,
+    "title": "Twitter",
+    "url": "https://twitter.com/?lang=en"
+  },
+  "linksmcpdci": {
+    "_id": "linksmcpdci",
+    "order": 12,
+    "parent": 0,
+    "title": "todoist",
+    "url": "https://app.todoist.com/app/today"
+  },
+  "linkslbicjj": {
+    "_id": "linkslbicjj",
+    "order": 9,
+    "parent": 0,
+    "title": "Udemy",
+    "url": "https://www.udemy.com/home/my-courses/"
+  },
+  "linkskkhcai": {
+    "_id": "linkskkhcai",
+    "order": 1,
+    "parent": 0,
+    "title": "G-Mail",
+    "url": "https://mail.google.com/mail/u/0/#inbox"
+  },
+  "linkskcffeg": {
+    "_id": "linkskcffeg",
+    "order": 35,
+    "parent": 0,
+    "title": "Hack the box",
+    "url": "https://academy.hackthebox.com/dashboard"
+  },
+  "linksiogfhd": {
+    "_id": "linksiogfhd",
+    "order": 5,
+    "parent": 0,
+    "title": "YouTube",
+    "url": "https://www.youtube.com/"
+  },
+  "linkshofbmn": {
+    "_id": "linkshofbmn",
+    "order": 30,
+    "parent": 0,
+    "title": "Chatgpt",
+    "url": "https://chat.openai.com/"
+  },
+  "linksgkbenm": {
+    "_id": "linksgkbenm",
+    "order": 7,
+    "parent": 0,
+    "title": "Wordpress",
+    "url": "https://wordpress.com/log-in/"
+  },
+  "linkseoajgl": {
+    "_id": "linkseoajgl",
+    "order": 0,
+    "parent": 0,
+    "title": "G-Photos",
+    "url": "https://photos.google.com/?pli=1"
+  },
+  "linksemmjaf": {
+    "_id": "linksemmjaf",
+    "order": 3,
+    "parent": 0,
+    "title": "G-Docs",
+    "url": "https://docs.google.com/document/u/0/",
+    "icon": "https://docs.google.com/document/u/0/"
+  },
+  "linkseehdei": {
+    "_id": "linkseehdei",
+    "order": 38,
+    "parent": 0,
+    "title": "Hackerone",
+    "url": "https://hackerone.com/opportunities/all"
+  },
+  "linksedjapg": {
+    "_id": "linksedjapg",
+    "order": 21,
+    "parent": 0,
+    "title": "Replit",
+    "url": "https://replit.com/@ipriyanshkhanda"
+  },
+  "linksebdarl": {
+    "_id": "linksebdarl",
+    "order": 14,
+    "parent": 0,
+    "title": "Reddit",
+    "url": "https://www.reddit.com/user/k_priyansh/"
+  },
+  "linksdeimmn": {
+    "_id": "linksdeimmn",
+    "order": 36,
+    "parent": 0,
+    "title": "Letsdefend",
+    "url": "https://app.letsdefend.io/homepage"
+  },
+  "linkscombha": {
+    "_id": "linkscombha",
+    "order": 32,
+    "parent": 0,
+    "title": "Ngrok",
+    "url": "https://dashboard.ngrok.com/onboarding"
+  },
+  "linkscnncbf": {
+    "_id": "linkscnncbf",
+    "order": 6,
+    "parent": 0,
+    "title": "WhatsApp",
+    "url": "https://web.whatsapp.com/"
+  },
+  "linksblnknn": {
+    "_id": "linksblnknn",
+    "order": 29,
+    "parent": 0,
+    "title": "linkedin",
+    "url": "https://www.linkedin.com/in/priyanshkhandal/"
+  },
+  "linksblhflp": {
+    "_id": "linksblhflp",
+    "order": 17,
+    "parent": 0,
+    "title": "Onedrive",
+    "url": "https://onedrive.live.com/?id=root&cid=A338DB703B0BEE88"
+  },
+  "linktabs": {
+    "active": false,
+    "selected": 0,
+    "titles": [
+      "Home page"
+    ]
+  },
+  "clock": {
+    "ampm": true,
+    "analog": false,
+    "face": "marks",
+    "seconds": false,
+    "size": 1,
+    "style": "round",
+    "timezone": "auto"
+  },
+  "unsplash": {
+    "collection": "",
+    "every": "pause",
+    "lastCollec": "day",
+    "pausedImage": {
+      "url": "https://images.unsplash.com/photo-1706396924378-e3d45b4f6d00?ixid=M3w4ODczOHwwfDF8cmFuZG9tfHx8fHx8fHx8MTcwOTE4Njk3M3w&ixlib=rb-4.0.3&w=1920&h=1080&dpr=1&auto=format&q=75&fit=crop",
+      "city": null,
+      "color": "#8c5940",
+      "country": null,
+      "exif": {
+        "aperture": "3.5",
+        "exposure_time": "1/200",
+        "focal_length": "100.0",
+        "iso": 1000,
+        "make": "Canon",
+        "model": " EOS R",
+        "name": "Canon, EOS R"
+      },
+      "name": "Tony Litvyak",
+      "link": "https://unsplash.com/photos/a-close-up-of-a-persons-brown-eye-V8B3nq7C28s",
+      "username": "justatony"
+    },
+    "time": 1709186983503
+  },
+  "weather": {
+    "city": "Jaipur",
+    "ccode": "IN",
+    "fcHigh": 14,
+    "fcLast": 1699371000,
+    "forecast": "auto",
+    "geolocation": "precise",
+    "lastCall": 1699355069,
+    "lastState": {
+      "description": "smoke",
+      "feels_like": 30.05,
+      "icon_id": 711,
+      "sunrise": 1699319432,
+      "sunset": 1699359046,
+      "temp": 31.57,
+      "temp_max": 31.57
+    },
+    "moreinfo": "none",
+    "provider": "",
+    "temperature": "actual",
+    "unit": "metric"
+  },
+  "notes": {
+    "text": "",
+    "align": "left",
+    "on": true,
+    "opacity": 0,
+    "width": 51
+  },
+  "searchbar": {
+    "on": true,
+    "opacity": 0,
+    "engine": "google",
+    "newtab": false,
+    "placeholder": "Google it",
+    "request": "",
+    "suggestions": true
+  },
+  "quotes": {
+    "on": false,
+    "author": false,
+    "frequency": "day",
+    "last": 1710827566476,
+    "type": "classic",
+    "userlist": ""
+  },
+  "font": {
+    "size": "13",
+    "family": "Work Sans",
+    "system": true,
+    "weight": "500",
+    "weightlist": [
+      "200",
+      "300",
+      "400",
+      "500",
+      "600",
+      "700",
+      "800",
+      "900"
+    ]
+  },
+  "move": {
+    "layouts": {
+      "double": {
+        "grid": [
+          [
+            "time",
+            "quicklinks"
+          ],
+          [
+            "searchbar",
+            "quicklinks"
+          ],
+          [
+            "notes",
+            "quicklinks"
+          ]
+        ],
+        "items": {
+          "time": {
+            "box": "end center",
+            "text": ""
+          },
+          "notes": {
+            "box": "baseline center",
+            "text": "left"
+          },
+          "searchbar": {
+            "box": "",
+            "text": ""
+          }
+        }
+      },
+      "single": {
+        "grid": [
+          [
+            "quicklinks"
+          ]
+        ],
+        "items": {}
+      },
+      "triple": {
+        "grid": [
+          [
+            ".",
+            "quicklinks",
+            "."
+          ]
+        ],
+        "items": {}
+      }
+    },
+    "selection": "double"
+  }
+}
