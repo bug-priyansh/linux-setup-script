@@ -1,7 +1,0 @@
-terminus
-code
-google chrome
-obsidian
-envycontrol
-packet tracer
-
