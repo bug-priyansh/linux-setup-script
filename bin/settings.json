@@ -1,0 +1,121 @@
+{   
+    "workbench.colorTheme": "Hack The Box",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.productIconTheme": "macos-modern",
+    "editor.fontLigatures": true,
+
+    "editor.fontFamily": "\"Hack Nerd Font\"",//'Droid Sans Mono', 'monospace', monospace",
+    "editor.fontSize": 14,
+    "editor.fontWeight": "350", // OPTIONAL
+    "editor.lineHeight": 24,
+    "editor.smoothScrolling": true,
+    "editor.mouseWheelZoom": true,
+
+    //Workbench
+    "workbench.editor.titleScrollbarSizing": "large",
+    "workbench.editor.enablePreview": true,
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "workbench.editor.closeEmptyGroups": false,
+    "workbench.layoutControl.enabled": true,
+    "workbench.sideBar.location": "left",
+    "workbench.tree.indent": 12,
+    "workbench.tree.renderIndentGuides": "always",
+    "workbench.editor.tabActionCloseVisibility": false,
+    "workbench.list.multiSelectModifier": "alt",
+    "workbench.colorCustomizations": {
+    
+    
+    },
+    "workbench.editor.tabCloseButton": "On",
+
+    //Explore
+    "explorer.openEditors.visible": 1,
+    "explorer.autoReveal": false,
+    "editor.minimap.enabled": false, // OPTIONAL
+    "breadcrumbs.enabled": true,
+    "editor.overviewRulerBorder":true,
+
+    "editor.padding.bottom": 14,
+    "editor.padding.top": 14,
+    "editor.scrollbar.horizontal": "hidden",
+    "explorer.compactFolders": false,
+    
+    "editor.codeLens": false,
+    "editor.glyphMargin": false,
+    "editor.foldingHighlight": false,
+    "editor.renderLineHighlight": "none",
+    "editor.guides.indentation": false,
+    "editor.guides.highlightActiveIndentation": false,
+    "editor.matchBrackets": "never",
+    "editor.guides.highlightActiveBracketPair": false,
+    "editor.lineNumbers": "on", // OPTIONAL
+    "editor.parameterHints.enabled": false,
+    "editor.inlayHints.enabled": "off",
+    "editor.inlineSuggest.enabled": true,
+    "window.autoDetectHighContrast": false,
+    "settingsSync.ignoredSettings": [
+        "window.titleBarStyle",
+    ],
+    
+    "window.menuBarVisibility": "toggle",
+    "editor.multiCursorModifier": "alt",
+    "editor.multiCursorMergeOverlapping": false,
+    
+     
+    
+    // Terminal    
+    "terminal.integrated.cursorStyleInactive": "underline",
+    "terminal.integrated.cursorStyle": "underline",
+    "terminal.integrated.enableImages": true,
+    "terminal.integrated.fontFamily":  "\"Hack Nerd Font\"",//"Cartograph CF",//"jet brains mono","Cartograph CF Regular",
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.letterSpacing": 0,
+    "terminal.integrated.lineHeight": 1,
+    "terminal.integrated.fontWeight": "normal",
+    "terminal.integrated.cursorWidth": 2,
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.autoReplies": {
+        "Terminate batch job (Y/N)": "Y\r",
+        "Terminate batch job (Y/n)": "Y\r",
+    },
+     
+
+
+    
+    //Extensions
+    "bashIde.explainshellEndpoint": "http://localhost:5000",
+    "security.workspace.trust.untrustedFiles": "open",
+    "insert-unicode.favorites": {
+
+    },
+    "insert-unicode.unicode-font-use-regular-space": true,
+    "window.customTitleBarVisibility": "auto",
+    "redhat.telemetry.enabled": true,
+    "vs-kubernetes": {
+        "vscode-kubernetes.minikube-path-linux": "/home/iampriyansh/.local/state/vs-kubernetes/tools/minikube/linux-amd64/minikube",
+        "vscode-kubernetes.helm-path-linux": "/home/iampriyansh/.local/state/vs-kubernetes/tools/helm/linux-amd64/helm",
+        "vscode-kubernetes.kubectl-path-linux": "/home/iampriyansh/.local/state/vs-kubernetes/tools/kubectl/kubectl"
+    },
+    "snyk.yesWelcomeNotification": false,
+    "RainbowBrackets.depreciation-notice": false,
+    "snyk.advanced.cliPath": "/home/iampriyansh/.local/share/snyk-ls/snyk-linux",
+    "codeQL.telemetry.enableTelemetry": true,
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "test",
+            "database": "test",
+            "username": "user",
+            "askForPassword": true
+        }
+    ],
+
+    
+}

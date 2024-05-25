@@ -1,0 +1,21 @@
+# KALI DEFAULT
+deb http://http.kali.org/kali kali-rolling main contrib non-free non-free-firmware
+deb-src http://http.kali.org/kali kali-rolling main contrib non-free non-free-firmware
+
+# DEBAIN
+deb http://deb.debian.org/debian/ bullseye main contrib non-free
+deb http://ftp.debian.org/debian stable main contrib non-free
+
+# PARROT SECURITY
+# deb http://deb.parrotsec.org/parrot stable main contrib non-free
+# deb https://deb.parrot.sh/parrot/ rolling main contrib non-free
+# deb-src https://deb.parrot.sh/parrot/ rolling main contrib non-free
+# deb https://deb.parrot.sh/parrot/ rolling-security main contrib non-free
+# deb-src https://deb.parrot.sh/parrot/ rolling-security main contrib non-free
+
+# UBUNTU
+# deb http://us.archive.ubuntu.com/ubuntu/ saucy universe
+# deb http://us.archive.ubuntu.com/ubuntu/ saucy universe
+# deb-src http://us.archive.ubuntu.com/ubuntu/ saucy universe 
+# deb http://us.archive.ubuntu.com/ubuntu/ saucy-updates universe
+# deb-src http://us.archive.ubuntu.com/ubuntu/ saucy-updates univers

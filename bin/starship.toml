@@ -1,0 +1,401 @@
+# ~/.config/starship.toml
+
+add_newline = true
+#command_timeout = 1000
+#format = """$os$username$localip$hostname$memory_usage$kubernetes$directory$shell$git_branch\n$character"""
+
+#format = """\
+#[╭╼ ](250)$os\
+#$username$hostname$memory_usage$kubernetes$directory$shell$git_branch\
+#\n[╰─╼](250)$character\
+#"""
+#\n[│](250)\
+#\n[└─](250)$character\
+
+format = """
+[╭╼](fg:002) $os \
+$username$hostname$memory_usage\
+$directory$time\
+\n[](190)$character \
+"""
+
+# change the default prompt characters
+[character]
+error_symbol = '[╰─](001)'
+success_symbol = '[╰─](002)'
+
+# ---
+
+[os]
+#format = "on [($name )]($style)"
+format = '[$symbol](012) '
+#style = "bold blue"
+disabled = false
+
+[os.symbols]
+#Windows = " "
+#Arch = "Arch is the best! "
+Android = " "
+#Kali = " "
+Arch = " "
+#Kali = " "
+Artix = " "
+#Kali = " "
+Debian = " "
+#Kali = " "
+DragonFly = " "
+#Kali = " "
+Emscripten = " "
+#Kali = " "
+Fedora = " "
+#Kali = " "
+Garuda = "󰛓 "
+#Kali = "󰛓 "
+Illumos = "󰈸 "
+#Kali = "󰈸"
+Kali = ""
+Linux = " "
+#Kali = " "
+Macos = " "
+#Kali = " "
+NixOS = " "
+#Kali = " "
+OracleLinux = "󰌷 "
+#Kali = "󰌷 "
+Raspbian = " "
+#Kali = " "
+Solus = "󰠳 "
+#Kali = "󰠳 "
+Ubuntu = " "
+#Kali = " "
+Windows = "󰍲 "
+#Kali = "󰍲 "
+# ---
+
+# Shows the username
+[username]
+format = '[on](fg:#A4B1CD) [${user}${ssh_symbol}](012) '
+style_root = 'black bold'
+style_user = 'white bold'
+#format = ' [$user](250) '
+disabled = false
+show_always = true
+
+# Shows the IP Addr
+[localip]
+disabled = false
+format = '[@$localipv4](009) '
+ssh_only = false
+
+# Shows the hostname
+[hostname]
+disabled = false
+format = 'on [${hostname}${ssh_symbol}](006) '
+ssh_only = true
+ssh_symbol = " "
+
+# Shows the memory usage
+[memory_usage]
+disabled = false
+format = '[$symbol ${ram_pct}](001) '
+style = 'bold dimmed green'
+symbol = "󰍛"
+threshold = 15
+
+# Shows current directory
+[directory]
+format = '[at](fg:#A4B1CD) [$path](002)[$read_only](013) '
+home_symbol = '󰋜 ~'
+read_only = " 󰌾 "
+read_only_style = '013'
+truncation_length = 5
+truncation_symbol = '…/'
+[directory.substitutions]
+"Documents" = "󰈙 "
+"Downloads" = " "
+"Music" = " "
+"Pictures" = " "
+
+[time]
+disabled = false
+#style='bg:#1d2230'
+format = '[[  $time ](fg:#A4B1CD)]($style) '
+time_format = '%r'
+#time_range = '10:00:00-14:00:00'
+#utc_time_offset = '-5'
+
+[status]
+disabled = false
+format = '[\[$symbol$common_meaning$signal_name$maybe_int\]]($style) '
+map_symbol = true
+not_executable_symbol = '✗ NOT EXECUTABLE '
+not_found_symbol = '✗'
+sigint_symbol = '✗'
+signal_symbol = '✗'
+success_symbol = '✔ SUCCESS'
+symbol = '✗ FAILED '
+
+#show the shell
+
+#show the Battery
+#
+#
+#
+#
+
+# Shows current git branch
+#[git_branch]
+#symbol = ' '
+#format = 'via [$symbol$branch]($style)'
+#truncation_length = 1
+#truncation_symbol = '…/'
+#style = 'bold green'
+[git_branch]
+format = '[ $symbol $branch ]($style)'
+style = ""
+symbol = ""
+
+# Shows current git status
+#[git_status]
+#format = '[$all_status$ahead_behind]($style) '
+#style = 'bold green'
+#conflicted = '🏳'
+#up_to_date = ''
+#untracked = '  '
+#ahead = '⇡${count}'
+#diverged = '⇕⇡${ahead_count}⇣${behind_count}'
+#behind = '⇣${count}'
+#stashed = ' 󱝗 '
+#modified = '  '
+#staged = ' [++\($count\)](green)'
+#renamed = ' 襁 '
+#deleted = '  '
+
+# Shows kubernetes context and namespace
+[kubernetes]
+disabled = true
+format = 'via [󱃾 $context\($namespace\)](bold purple) '
+
+[docker_context]
+disabled = true
+symbol = " "
+
+[python]
+disabled = true
+symbol = " "
+
+[php]
+symbol = " "
+
+# ---
+
+[vagrant]
+disabled = true
+
+[helm]
+disabled = true
+
+[nodejs]
+disabled = true
+symbol = " "
+
+[ruby]
+disabled = true
+symbol = " "
+
+[terraform]
+disabled = true
+
+[package]
+symbol = "󰏗 "
+
+[perl]
+symbol = " "
+
+[pijul_channel]
+symbol = " "
+
+[rlang]
+symbol = "󰟔 "
+
+[rust]
+symbol = " "
+
+[scala]
+symbol = " "
+
+[swift]
+symbol = " "
+
+[zig]
+symbol = " "
+
+[aws]
+symbol = "  "
+
+[buf]
+symbol = " "
+
+[c]
+symbol = " "
+
+[conda]
+symbol = " "
+
+[crystal]
+symbol = " "
+
+[dart]
+symbol = " "
+
+[elixir]
+symbol = " "
+
+[elm]
+symbol = " "
+
+[fennel]
+symbol = " "
+
+[fossil_branch]
+symbol = " "
+
+[golang]
+symbol = " "
+
+[guix_shell]
+symbol = " "
+
+[haskell]
+symbol = " "
+
+[haxe]
+symbol = " "
+
+[hg_branch]
+symbol = " "
+
+[java]
+symbol = " "
+
+[julia]
+symbol = " "
+
+[kotlin]
+symbol = " "
+
+[lua]
+symbol = " "
+
+[meson]
+symbol = "󰔷 "
+
+[nim]
+symbol = "󰆥 "
+
+[nix_shell]
+symbol = " "
+
+[ocaml]
+symbol = " "
+
+#----------------------------------------------
+
+#add_newline = false
+#command_timeout = 1000
+#format = """$os$username$hostname$kubernetes$directory$git_branch$git_status"""
+
+# Drop ugly default prompt characters
+#[character]
+#success_symbol = ''
+#error_symbol = ''
+
+# ---
+
+#[os]
+#format = '[$symbol](bold white) '   
+#disabled = false
+
+#[os.symbols]
+#Linux = ''
+#Windows = ''
+#Arch = '󰣇'
+#Ubuntu = ''
+#Macos = '󰀵'
+
+# ---
+
+# Shows the username
+#[username]
+#style_user = 'white bold'
+#style_root = 'black bold'
+#format = '[$user]($style) '
+#disabled = false
+#show_always = true
+
+# Shows the hostname
+#[hostname]
+#ssh_only = false
+#format = 'on [$hostname](bold yellow) '
+#disabled = false
+
+# Shows current directory
+#[directory]
+#truncation_length = 1
+#truncation_symbol = '…/'
+#home_symbol = '󰋜 ~'
+#read_only_style = '197'
+#read_only = '  '
+#format = 'at [$path]($style)[$read_only]($read_only_style) '
+
+# Shows current git branch
+#[git_branch]
+#symbol = ' '
+#format = 'via [$symbol$branch]($style)'
+# truncation_length = 4
+#truncation_symbol = '…/'
+#style = 'bold green'
+
+# Shows current git status
+#[git_status]
+#format = '[$all_status$ahead_behind]($style) '
+#style = 'bold green'
+#conflicted = '🏳'
+#up_to_date = ''
+#untracked = ' '
+#ahead = '⇡${count}'
+#diverged = '⇕⇡${ahead_count}⇣${behind_count}'
+#behind = '⇣${count}'
+#stashed = ' '
+#modified = ' '
+#staged = '[++\($count\)](green)'
+#renamed = '襁 '
+#deleted = ' '
+
+# Shows kubernetes context and namespace
+#[kubernetes]
+#format = 'via [󱃾 $context\($namespace\)](bold purple) '
+#disabled = false
+
+# ---
+
+#[vagrant]
+#disabled = true
+
+#[docker_context]
+#disabled = true
+
+#[helm]
+#disabled = true
+
+#[python]
+#disabled = true
+
+#[nodejs]
+#disabled = true
+
+#[ruby]
+#disabled = true
+
+#[terraform]
+#disabled = true
