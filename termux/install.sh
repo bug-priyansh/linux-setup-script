@@ -45,8 +45,8 @@ if [[ -z "$GOPATH" ]];then
 
                         echo "Installing Golang"
                         wget https://dl.google.com/go/go1.13.4.linux-amd64.tar.gz
-                        sudo tar -xvf go1.13.4.linux-amd64.tar.gz
-                        sudo mv go /usr/local
+                        tar -xvf go1.13.4.linux-amd64.tar.gz
+                        mv go /usr/local
                         export GOROOT=/usr/local/go
                         export GOPATH=$HOME/go
                         export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
