@@ -19,20 +19,94 @@ pkg update -y
 pkg upgrade -y 
 
 ### ---- Neccessary Tools ----------------------------------------------------------------------
-tools=("x11-repo" "root-repo" "termux-api" "termux-exec" "curl" "git" "wget" "zip" "unzip" "python" "python2" "python3" "pip" "nodejs" "jq" "libxml2-utils" "grep" "bc" "htop" "figlet" "httping" "dnsutils" "openssh" "ffmpeg" "php" "nano" "zsh" "clang" "libffi" "openssl" "screenfetch" "neofetch" "cowsay" "perl" "ruby" "rust" "fakeroot" "sshpass" "golang" "proot" "tmux" "neovim" "postgresql" "nginx" "apache2" "sqlite" "sl" "fish" "cmatrix" "coreutils" "macchanger" "build-essential" "binutils" "pkg-config" "nodejs-lts" "locate" "autoconf" "powertop" "postgresql-client" "postgresql-contrib" "redis" "direnv" "bat" "ripgrep" "fzf" "apt-transport-https" "gnupg-agent" "libcurl4-openssl-dev" "ruby-full" "libxml2-dev" "libxml2" "libxslt1-dev" "ruby-dev" "libgmp-dev" "zlib1g-dev" "libssl-dev" "libffi-dev" "python-dev" "python-setuptools" "libldns-dev" "python3-pip" "python-pip" "python-dnspython" "rename" "xargs" "default-mysql-client" "default-mysql-server")
+pkg install -y x11-repo 
+pkg install -y root-repo 
+pkg install -y termux-api 
+pkg install -y termux-exec 
+pkg install -y curl 
+pkg install -y git 
+pkg install -y wget 
+pkg install -y zip 
+pkg install -y unzip 
+pkg install -y python 
+pkg install -y python2 
+pkg install -y python3 
+pkg install -y pip 
+pkg install -y nodejs 
+pkg install -y jq 
+pkg install -y libxml2-utils 
+pkg install -y grep 
+pkg install -y bc 
+pkg install -y htop 
+pkg install -y figlet 
+pkg install -y httping 
+pkg install -y dnsutils 
+pkg install -y openssh 
+pkg install -y ffmpeg 
+pkg install -y php 
+pkg install -y nano 
+pkg install -y zsh 
+pkg install -y clang 
+pkg install -y libffi 
+pkg install -y openssl 
+pkg install -y screenfetch 
+pkg install -y neofetch 
+pkg install -y cowsay
+pkg install -y perl 
+pkg install -y ruby 
+pkg install -y rust 
+pkg install -y fakeroot 
+pkg install -y sshpass 
+pkg install -y golang 
+pkg install -y proot 
+pkg install -y tmux 
+pkg install -y neovim 
+pkg install -y postgresql 
+pkg install -y nginx 
+pkg install -y apache2 
+pkg install -y sqlite 
+pkg install -y sl 
+pkg install -y fish 
+pkg install -y cmatrix 
+pkg install -y coreutils 
+pkg install -y macchanger 
+pkg install -y build-essential 
+pkg install -y binutils 
+pkg install -y pkg-config 
+pkg install -y nodejs-lts 
+pkg install -y locate 
+pkg install -y autoconf 
+pkg install -y powertop 
+pkg install -y postgresql-client 
+pkg install -y postgresql-contrib 
+pkg install -y redis 
+pkg install -y direnv 
+pkg install -y bat 
+pkg install -y ripgrep 
+pkg install -y fzf 
+pkg install -y apt-transport-https 
+pkg install -y gnupg-agent 
+pkg install -y libcurl4-openssl-dev 
+pkg install -y ruby-full 
+pkg install -y libxml2-dev 
+pkg install -y libxml2 
+pkg install -y libxslt1-dev 
+pkg install -y ruby-dev 
+pkg install -y libgmp-dev 
+pkg install -y zlib1g-dev 
+pkg install -y libssl-dev 
+pkg install -y libffi-dev 
+pkg install -y python-dev 
+pkg install -y python-setuptools 
+pkg install -y libldns-dev 
+pkg install -y python3-pip 
+pkg install -y python-pip 
+pkg install -y python-dnspython 
+pkg install -y rename 
+pkg install -y xargs 
+pkg install -y default-mysql-client 
+pkg install -y default-mysql-server
 
-# Install each module in the list
-for tools in "${tools[@]}"; do
-    if ! command -v "$tools" &>/dev/null; then
-        echo "Installing $tools..."
-        pip install -y "$tools"
-        clear
-        echo "$tools installed successfully."
-    else
-        echo "$tools is already installed."
-        clear
-    fi
-done
 
 ### GO
 if [[ -z "$GOPATH" ]];then
